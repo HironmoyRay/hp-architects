@@ -1,335 +1,339 @@
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 50px 200px;
 }
 
 .header-title {
-    margin-left: 25%;
-    font-size: 30px;
+  font-size: 1.5rem;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 10%;
-    margin-left: 15%;
-    align-items: center;
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  /* margin-right: 10%;
+    margin-left: 15%; */
+  align-items: center;
+}
+.list-items {
+}
+.item {
+  list-style: none;
+  margin: 10px 20px;
+}
+#contact {
+  width: 100px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
 }
 
 a:hover {
-    color: gray;
+  font-weight: bold;
 }
 
 /* main  */
 
 .brand-section {
-    text-align: center;
-    background-color: antiquewhite;
+  text-align: center;
+  background-color: antiquewhite;
 }
 
 .brand-title {
-    margin-top: 0px;
-    font-size: 30px;
-
+  margin-top: 0px;
+  font-size: 30px;
 }
 
 .brand-details {
-    color: gray;
-    margin: 0% 25%;
-    padding: 10px;
+  color: gray;
+  margin: 0% 25%;
+  padding: 10px;
 }
 
 .brand-btn {
-    color: aliceblue;
-    font-size: large;
-    background-color: orange;
-    border: 0px;
-    border-radius: 5px;
-    padding: 10px 20px;
+  color: aliceblue;
+  font-size: large;
+  background-color: orange;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
 
 .brand-img {
-    margin: 30px;
-    width: 75%;
+  margin: 30px;
+  width: 75%;
 }
 
 .feature-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    margin: 20px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 20px 30px;
 }
 
 .img-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 20px 20px 20px 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 20px 20px 25%;
 }
 
 .details-container {
-    margin: 20px 25% 20px 20px;
+  margin: 20px 25% 20px 20px;
 }
 
 .feature-img {
-    width: 90%;
-    padding: 20px;
+  width: 90%;
+  padding: 20px;
 }
 
 .quick-title {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .quick-list {
-    color: gray;
+  color: gray;
 }
 
 .feature {
-    color: orange;
+  color: orange;
 }
 
 .feature-details {
-    color: gray;
-    margin: 10px 5px;
+  color: gray;
+  margin: 10px 5px;
 }
 
 .feature-btn {
-    color: aliceblue;
-    font-size: large;
-    background-color: orange;
-    border: 0px;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin: 10px 5px;
+  color: aliceblue;
+  font-size: large;
+  background-color: orange;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px 5px;
 }
 
 .details-container2 {
-    margin: 0px 20px 20px 25%;
+  margin: 0px 20px 20px 25%;
 }
 
 .popular-title {
-    font-size: 30px;
-    text-align: left;
-    padding-left: 10px;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 10px;
 }
 
 hr {
-    height: 100px;
-    width: 5px;
-    border: 0px;
-    background-color: orange;
+  height: 100px;
+  width: 5px;
+  border: 0px;
+  background-color: orange;
 }
 
 .hr-container {
-    display: grid;
-    grid-template-columns: 1% 90%;
+  display: grid;
+  grid-template-columns: 1% 90%;
 }
 
 .feature-box {
-    box-shadow: -5px -5px 10px gray;
-    margin: 20px;
-    padding: 10px;
+  box-shadow: -5px -5px 10px gray;
+  margin: 20px;
+  padding: 10px;
 }
 
 .feature-box h4 {
-    margin: 0px;
+  margin: 0px;
 }
 
 .img-container2 {
-    margin: 0px 25% 20px 20px;
-    height: 500px;
-    text-align: center;
+  margin: 0px 25% 20px 20px;
+  height: 500px;
+  text-align: center;
 }
 
 .feature-img2 {
-    height: 100%;
-    width: 90%;
-    padding: 20px;
+  height: 100%;
+  width: 90%;
+  padding: 20px;
 }
 
-
 .experience-btn {
-    background-color: orange;
-    color: aliceblue;
-    border: 0px;
-    border-radius: 5px;
-    padding: 20px 40px;
-    position: relative;
-    bottom: 150px;
+  background-color: orange;
+  color: aliceblue;
+  border: 0px;
+  border-radius: 5px;
+  padding: 20px 40px;
+  position: relative;
+  bottom: 150px;
 }
 
 .years {
-    font-size: 40px;
-    font-weight: bold;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 /* Fact COntainer  */
 .fact-section {
-    margin: 5% 15%;
+  margin: 5% 15%;
 }
 
 .fact-box-container {
-    display: flex;
-    justify-content: space-around;
-    gap: 5px;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
 }
 
 .fact-title {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .fact-details {
-    color: gray;
-    margin-top: 50px;
+  color: gray;
+  margin-top: 50px;
 }
 
 .fact-box {
-    text-align: center;
-    border: 2px solid orange;
-    border-radius: 3px;
-    padding: 5px;
-    width: 150px;
-    margin-top: 50px;
-
-
+  text-align: center;
+  border: 2px solid orange;
+  border-radius: 3px;
+  padding: 5px;
+  width: 150px;
+  margin-top: 50px;
 }
 
 .fact-box:hover {
-    animation-name: fact;
-    animation-duration: 4s;
-    transform: scale(1.5);
-    transition: linear 1s;
-    transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
+  animation-name: fact;
+  animation-duration: 4s;
+  transform: scale(1.5);
+  transition: linear 1s;
+  transition-timing-function: cubic-bezier(0.29, 1.01, 1, -0.68);
 }
 
 @keyframes fact {
-    from {
-        background-color: white;
-    }
+  from {
+    background-color: white;
+  }
 
-    to {
-        background-color: wheat;
-    }
+  to {
+    background-color: wheat;
+  }
 }
 
 .fact-box h4 {
-    margin: 0px;
-    padding: 5px;
+  margin: 0px;
+  padding: 5px;
 }
 
 .fact-box p {
-    margin: 0px;
-    padding: 5px;
-    color: gray;
+  margin: 0px;
+  padding: 5px;
+  color: gray;
 }
 
 /* my section  */
 .my-section {
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .my-section h3 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .my-section p {
-    color: gray;
+  color: gray;
 }
 
 .career-img {
-    width: 100%;
+  width: 100%;
 }
 
 /* Sponsor container  */
 
 .sponsor-section {
-    margin: 0% 15%;
-    padding: 20px;
-    text-align: center;
+  margin: 0% 15%;
+  padding: 20px;
+  text-align: center;
 }
 
 .sponsor-title {
-    font-size: 30px;
-
+  font-size: 30px;
 }
 
 .sponsor-details {
-    color: gray;
-    margin: 50px;
+  color: gray;
+  margin: 50px;
 }
 
 .sponsor-img {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    gap: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  gap: 5px;
 }
-
 
 /* Footter  */
 
 footer {
-    text-align: center;
-    background-color: antiquewhite;
-    margin: 100px 15% 10px;
-    padding: 20px 30px;
-    border-radius: 5px;
-    color: gray;
+  text-align: center;
+  background-color: antiquewhite;
+  margin: 100px 15% 10px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  color: gray;
 }
-
-
-
 
 /* responsive style  */
 
 /* for mobile device */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+  }
 
-    header,
-    .feature-section,
-    .img-container {
-        grid-template-columns: 1fr;
-        text-align: center;
-        margin-left: 0;
-        margin-right: 0;
-    }
 
-    .header-title,
-    .details-container,
-    .details-container2,
-    .feature-section,
-    .feature-section2,
-    .feature-details,
-    .feature-box,
-    .img-container2,
-    .img-container2,
-    .fact-section {
-        margin-left: 0%;
-        margin-right: 0%;
-    }
+  .feature-section,
+  .img-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-    nav,
-    .sponsor-img {
-        flex-direction: column;
-        margin-left: 0%;
-        margin-right: 0%;
-    }
+  .header-title,
+  .details-container,
+  .details-container2,
+  .feature-section,
+  .feature-section2,
+  .feature-details,
+  .feature-box,
+  .img-container2,
+  .img-container2,
+  .fact-section {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 
-    .fact-box-container {
-        flex-direction: column;
-        margin-left: 35%;
-    }
+  nav,
+  .sponsor-img {
+    flex-direction: column;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 
-    .sponsor-img img {
-        margin-top: 30px;
-    }
+  .fact-box-container {
+    flex-direction: column;
+    margin-left: 35%;
+  }
 
+  .sponsor-img img {
+    margin-top: 30px;
+  }
 }
