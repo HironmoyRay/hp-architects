@@ -264,7 +264,8 @@ hr {
 }
 
 .career-img {
-  width: 100%;
+  width: 75%;
+  height: 400px;
 }
 
 /* Sponsor container  */
@@ -408,6 +409,7 @@ footer {
     padding: 0px;
   }
   /* ///////////////////////////////////////// */
+
 
   nav,
   .sponsor-img {
