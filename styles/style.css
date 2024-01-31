@@ -250,6 +250,7 @@ hr {
 /* my section  */
 .my-section {
   text-align: center;
+  /* border: 2px solid gray; */
   /* margin-left: 15%; */
   /* margin-right: 15%; */
 }
@@ -264,7 +265,9 @@ hr {
 
 .career-img {
   width: 75%;
-  height: 400px;
+  height: 300px;
+  border: 5px solid gray;
+  border-radius: 10px;
 }
 
 /* Sponsor container  */
@@ -320,6 +323,7 @@ footer {
     grid-template-columns: 1fr;
     padding: 0px;
     margin: 0px;
+    margin-top: 10px;
   }
   .feature-img {
     width: 100%;
@@ -354,6 +358,7 @@ footer {
   .fact-box-container {
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    /* justify-content: center; */
   }
 
   .sponsor-img img {
